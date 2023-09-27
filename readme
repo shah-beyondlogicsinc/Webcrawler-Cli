@@ -1,0 +1,34 @@
+# Web Crawler
+
+## Prerequisites
+
+Before using the Web Crawler, ensure you have the following installed on your machine:
+
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+
+## After node.js installation we need to follow below steps
+
+To use the Web Crawler, follow these steps:
+
+Open a project. In my case i have used VS-Code
+
+## Installation
+
+npm install
+
+## Run
+
+Open terminal and navigate to src folder.. and then
+
+Run the following command:
+
+npx ts-node index.ts <url> <depth>
+
+url example : any for your choice
+
+depth example : should be an number 1 , 2 ,3 etc
+
+# Addtional dependencies
+
+npm install -g ts-node
+npm i --save-dev @types/node-fetch

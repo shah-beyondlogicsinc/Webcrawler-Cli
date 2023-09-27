@@ -1,0 +1,26 @@
+{
+  "name": "web-crawler-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.7.0",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.0",
+    "@types/node-fetch": "^2.6.6",
+    "ts-node-dev": "^2.0.0"
+  }
+}
